@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+   overflow-x: hidden;
+}
+
+.box{
+    display:flex;
+    width: 100%;
+}
+
+
+.innerdiv{
+    position: relative;
+    /* border: 1px black solid; */
+    color: aliceblue;
+    margin: -300px 140px 0px 0px;
+    background: rgba(128, 128, 128, 0.836);
+    display: none;
+    transition: 0.5s;
+    width: 100%;
+}
+.innerdiv .innercontent{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px;
+}
+.innercontent .maincontent{
+    display: flex;
+    margin: 10px 50px 10px 0px;
+}
+.maincontent p{
+    font-size: larger;
+}
+.maincontent img{
+    border-radius: 20px;
+}
+.innercontent img {
+    height: 400px;
+    width: 400px;
+}
+.cancle{
+    cursor: pointer;
+}
+.innerdiv p{
+    font-size: large;
+}
+.blog{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px 20px;
+    line-height: 35px;
+    width: 100% !important;
+    box-shadow: 0px 2px 5px 0px #636363;
+    height: 300px;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+.blog p{
+    font-size:x-large;
+}
+main{
+    width: 100%;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+i{
+    margin: 20px;
+    font-size: 30px;
+}
+.blog img{
+    height: 400px;
+    width: 400px;
+}
+/* style.css */
+
+
+.sidenavbar{
+    position: fixed;
+    padding: 200px 30px 0px 0px;
+    z-index: 1;
+    height: 100%;
+}
+.zaxis{
+    position: relative;
+    width: 350px !important;
+}
+h4{
+    width: 250px;
+    border-bottom: 1px black solid;
+    margin: 30px 10px;
+    padding: 10px;
+    transition: 0.2s;
+}
+.sidenavbar h4:hover{
+    transform: scale(1.02); /* Corrected: Removed 'px' from scale */
+    box-shadow: 0px 1px 3px 4px #bebebe;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    
+}
+nav ul li{
+    position: relative;
+    right: -900px;
+    margin: 30px;
+    list-style-type: none;
+    font-size: x-large;
+}
+nav ul h1{
+    font-family: 'Times New Roman', Times, serif;
+margin: 40px 80px;
+color: #674188;
+font-size:3em;
+}
+.blog:hover{
+    transform: scale(1.02); /* Corrected: Removed 'px' from scale */
+    box-shadow: 0px 1px 3px 4px #bebebe;
+    cursor: pointer;
+}
